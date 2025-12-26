@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SK | Family Fashion Destination</title>
+  <meta name="description" content="SK – Gents, Ladies, Kids & Sherwani. Wedding, festive and daily fashion under one roof." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-row">
+    <div class="brand">SK</div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#reach">Reach Us</a>
+      <a href="#offers">Offers</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  
+
+<section class="hero" aria-label="Hero">
+  <div class="hero-slider" aria-label="Hero slideshow">
+    <img id="heroMain" class="hero-slide-img" src="assets/hero.jpg" alt="SK Hero Banner">
+  </div>
+
+  <div class="hero-text hero-text-center">
+    <h1>THE FASHION DESTINATION FOR THE ENTIRE FAMILY</h1>
+    <p>GENTS | LADIES | KIDS | SHERWANI</p>
+  </div>
+</section>
+
+
+
+  <!-- FLOATING CARDS -->
+  <section class="cards" id="offers" aria-label="Collections">
+    <div class="wrap">
+      <div class="cards-grid">
+        <article class="card float f1">
+          <div class="card-media">
+            <img src="assets/gents.jpg" alt="SK Gents Wear model" loading="lazy">
+          </div>
+          <div class="card-title">SK Gents Wear</div>
+</article>
+
+        <article class="card float f2 ladies-sale">
+          <div class="badge">MEGA SALE • UP TO 50% OFF</div>
+          <div class="card-media">
+            <img src="assets/ladies.jpg" alt="SK Ladies Collection model" loading="lazy">
+          </div>
+          <div class="card-title">SK Ladies Collection</div>
+          <div class="card-note">* Mega Sale on Ladies Collection only</div>
+          <a class="card-cta" href="https://wa.me/916387312032" target="_blank" rel="noreferrer">WHATSAPP NOW</a>
+        </article>
+
+        <article class="card float f3">
+          <div class="card-media">
+            <img src="assets/kids.jpg" alt="SK Kids Wear model" loading="lazy">
+          </div>
+          <div class="card-title">SK Kids Wear</div>
+</article>
+
+        <article class="card float f4">
+          <div class="card-media">
+            <img src="assets/sherwani.jpg" alt="SK Sherwani Collection models" loading="lazy">
+          </div>
+          <div class="card-title">SK Sherwani Collection</div>
+</article>
+      </div>
+    </div>
+  </section>
+
+  <!-- REACH US -->
+  <section class="reach" id="reach" aria-label="Reach Us">
+    <div class="wrap reach-grid">
+      <div class="reach-box">
+        <h2>Reach Us</h2>
+        <div class="line">
+          <span class="ico">📍</span>
+          <div>
+            101, Dharmshala Rd, near Sai Chaouk,<br/>
+            Uttar Mohal, Robertsganj,<br/>
+            Uttar Pradesh 231216, India
+          </div>
+        </div>
+        <div class="line">
+          <span class="ico">💬</span>
+          <a class="link" href="https://wa.me/916387312032" target="_blank" rel="noreferrer">+91 63873 12032</a>
+        </div>
+        <div class="line">
+          <span class="ico">🧭</span>
+          <a class="link" href="https://maps.app.goo.gl/gjoiTNwNiM15tLNP6" target="_blank" rel="noreferrer">View on Google Maps</a>
+        </div>
+      </div>
+
+      <div class="reach-box map">
+        
+      
+        <img class="map-img" src="assets/map.jpg" alt="Map preview" loading="lazy"/>
+        <a class="map-btn" href="https://maps.app.goo.gl/gjoiTNwNiM15tLNP6" target="_blank" rel="noreferrer">Directions</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<a class="wa-float" href="https://wa.me/916387312032" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
+  WhatsApp
+</a>
+
+<footer class="footer">
+  <div class="wrap footer-row">
+    <div>© <span id="year"></span> SK</div>
+    <div class="muted">Gents • Ladies • Kids • Sherwani</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+  <script src="hero-carousel.js"></script>
+</body>
+</html>
